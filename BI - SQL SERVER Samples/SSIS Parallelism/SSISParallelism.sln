@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSISParallelism", "SSISParallelism\SSISParallelism.dtproj", "{A9A4FBE2-F3AF-4FD0-8010-CD4F8C2877A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Param_SSIS", "Param_SSIS", "{25803693-2B9D-4E6F-BBE1-7BB5992AE75D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Param_SSIS.sql = ..\Param_SSIS.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9A4FBE2-F3AF-4FD0-8010-CD4F8C2877A4}.Development|Default.ActiveCfg = Development
+		{A9A4FBE2-F3AF-4FD0-8010-CD4F8C2877A4}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
